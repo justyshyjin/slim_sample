@@ -6,7 +6,7 @@ define('APP_ROOT', __DIR__);
 
 return [
     'settings' => [
-        'displayErrorDetails' => true,
+        'displayErrorDetails' => false,
         'determineRouteBeforeAppMiddleware' => false,
 
         'doctrine' => [
