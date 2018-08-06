@@ -43,7 +43,8 @@ $app->any('/employees/[{id}]', function (Request $request, Response $response, $
 
     // $listemp = $employee->getEmployees($id);
     //$response->getBody()->write(var_export($listemp, true));
-    return $response;
+    die($args['id']);
+    //return $response;
 });
 
 $app->run();
