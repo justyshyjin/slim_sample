@@ -6,11 +6,11 @@
 
     /**
      * @ORM\Entity
-     * @ORM\Table(name="user", uniqueConstraints={@ORM\UniqueConstraint(name="user_email", columns={"email"})}))
+     * @ORM\Table(name="people", uniqueConstraints={@ORM\UniqueConstraint(name="people_email", columns={"email"})}))
      */
 
 
-    class Usermeta
+    class People
     {
         /**
          * @ORM\Id
